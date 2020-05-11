@@ -1,0 +1,25 @@
+.square{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    animation-name: button;
+    animation-duration: 10s;
+    animation-iteration-count: 4; /*says how many times the animation should repeat */
+}
+.square:hover{
+    border-radius: 50%;
+}
+@keyframes button {
+    0% {
+        background-color: blueviolet;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50% {
+        background-color: aqua;
+        box-shadow: 6px 6px 0 darkslategrey;
+    }
+    100% {
+        background-color: whitesmoke;
+        box-shadow: 6px 6px 0 black;
+    }
+}

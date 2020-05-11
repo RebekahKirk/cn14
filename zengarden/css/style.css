@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    min-width: 300px;
+    margin: 0px;
+    color: darkslategray;
+}
+.page-wrapper {
+    font-size: 9px;
+}
+a:link {
+    text-decoration: none;
+}
+/*
+[role=article]{
+    padding: 10px 100px 10px 100px ;
+}*/
+[role=banner] {
+    background-image: url(../img/huntington.png);
+    text-align:center;
+    height: 200px;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 7px 4px black;
+    font-size: 350%;
+    padding-top: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+}
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-position-x: -30px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    width: 200px;
+    margin: auto;
+    padding: 15px 0px 40px 30px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-weight: 11px;
+    margin: 0;
+    /*
+    margin-left: 100px;
+    margin-right: 100px; */
+}
+.summary{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.summary a:link{
+    color: black;
+}
+.preamble{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.explanation{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.participation h3{
+    margin: 0px 100px 0px;
+}
+.participation{
+    background-color: #789E7d;
+    background-image: url(../img/bamboo.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*
+    margin: 0px; */
+}
+.participation p{
+    color: white;
+    margin: 0px 100px 0px; /*do not touch creates white line */
+}
+.participation a:link{
+    color: black;
+}
+.benefits h3{
+    margin: 0px 100px 0px; 
+}
+.benefits{
+    background-color: #789E7d;
+    background-image: url(../img/bamboo.png);
+    padding-bottom: 10px;
+    /*
+    margin: 0px; */
+}
+.benefits p{
+    color: white;
+    margin: 0px 100px 0px; 
+}
+.requirements {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.requirements a{
+    color: black;
+}
+[role=contentinfo]{
+    background-color: #789E7d;
+    color: silver;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 30px 100px 20px;
+    height: 100px;
+    margin: 30px -100px 0px;
+}
+[role=contentinfo] a{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+}
+[role=contentinfo] 
+a:hover{
+    text-decoration: underline;
+}
+footer {
+    background-color: #22504C;
+    color: white;
+    text-align: center;
+    word-spacing: 50px;
+    height: 50px;
+    font-size: x-large;
+    padding: 20px 100px 0px;
+}
+footer a:link{
+    color: white;
+}
+footer a:hover{
+    color: silver;
+    text-decoration: none;
+}
+.design-selection {
+    background-color: #D7E1D8;
+}
+h3.select {
+    visibility: hidden;
+}
+[role=navigation] {
+    text-align: center;
+    background-color: #D7E1D8;
+    padding: 0px 0px 0px;
+}
+[role=navigation] ul{
+    padding: 0px 0px 0px;
+    column-count: 2;
+    column-gap: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin: 0px;
+}
+[role=navigation] ul li{
+    border-bottom-color: slategray;
+    border-bottom-style: solid;
+    padding: 20px;
+}
+.design-name {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.designer-name{
+    color: silver;
+    font-size: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+h3.archives{
+    visibility: hidden;
+}  
+.design-archives {
+    background-color: #D7E1D8;
+}
+.design-archives ul a{
+    color: silver;
+}
+h3.resources{
+    visibility: hidden;
+}
+.zen-resources {
+    background-color: #789E7d;
+    background-image: url(../img/bamboo.png);
+    text-align: center;
+}
+.zen-resources ul {
+    padding: 0px 0px 0px;
+    column-count: 2;
+    column-gap: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin: 0px;
+}
+.zen-resources ul li {
+    padding: 10px;
+}
+.zen-resources ul li a {
+    color: darkslategray;
+}
