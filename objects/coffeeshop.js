@@ -40,5 +40,5 @@ coffeeShop = {
         return `Your order is ${this.drinks[1]} & ${this.food[1]} and the total cost is £${this.sum()}`
     }
 };
-console.log(coffeeShop.fullOrder());
-console.log(this.drinks[2] & this.food[1]);
+console.log(coffeeShop.fullOrder()); //returns the full order with total cost
+console.log(this.drinks[2], this.food[1]); // how do you amend the order without changing the code?

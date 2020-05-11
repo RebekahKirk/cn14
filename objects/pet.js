@@ -17,3 +17,4 @@ const pet = {
 
 console.log (pet.name); // Returns the name of your pet
 console.log (pet.drink()); // Returns the name of your pet and the drink function
+console.log (pet.eat()); // Returns the name of your pet and the eat function
