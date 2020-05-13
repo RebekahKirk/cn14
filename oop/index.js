@@ -27,7 +27,7 @@ const pay = (reg, hr) => {
     for (i=0; i<hr; i++){
         car.increaseHours();
     }
-    console.log(` ${reg} you will need to pay £${car.charge} for ${car.hours} hours.`);
+    console.log(` ${car.reg} you will need to pay £${car.charge} for ${car.hours} hours.`);
 }
 //Run the function with the information provided. 
 pay ("M7 CAR", 5); //Ouput 'M7 CAR you will need to pay £7.5 for 5 hours'
